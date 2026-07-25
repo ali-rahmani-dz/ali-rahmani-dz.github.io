@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Rahmani — Administrateur Réseau & Développeur</title>
+  <meta name="description" content="Ali Rahmani — Administrateur Réseau & Développeur à Tlemcen, Algérie. Portfolio de projets en réseaux, systèmes et développement logiciel." />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Feuille de style personnalisée -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="min-h-screen bg-[#121212] text-[#e0e0e0] font-sans">
+
+  <!-- Background Ambient Glow -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
+    <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-[#10b981]/5 rounded-full blur-3xl"></div>
+  </div>
+
+  <div class="relative z-10">
+    <!-- NAVIGATION BAR -->
+    <header class="sticky top-0 z-40 backdrop-blur-md bg-[#121212]/90 border-b border-[#333333] transition-all">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+        <a href="#top" class="flex items-center gap-2 group text-left">
+          <div class="w-9 h-9 rounded-lg bg-[#10b981] flex items-center justify-center text-[#121212] font-black text-lg shadow-md group-hover:bg-[#059669] transition-colors">
+            AR
+          </div>
+          <div>
+            <div class="font-bold tracking-tight text-[#e0e0e0] text-base leading-tight">
+              Ali Rahmani
+            </div>
+            <div class="text-[11px] text-[#10b981] font-mono">
+              Réseaux & Dev
+            </div>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-6 text-sm text-[#a0a0a0] font-medium">
+          <a href="#about" class="hover:text-[#10b981] transition-colors">À propos</a>
+          <a href="#skills" class="hover:text-[#10b981] transition-colors">Compétences</a>
+          <a href="#experience" class="hover:text-[#10b981] transition-colors">Expérience</a>
+          <a href="#projects" class="hover:text-[#10b981] transition-colors">Projets</a>
+          <a href="#contact" class="hover:text-[#10b981] transition-colors">Contact</a>
+        </nav>
+
+        <a href="mailto:rahmani.ali@hotmail.com" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981] hover:bg-[#10b981] hover:text-[#121212] transition-all">
+          <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+          <span>Me contacter</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="top" class="pt-16 pb-16 md:pt-24 md:pb-24 max-w-4xl mx-auto px-4 sm:px-6 text-center flex flex-col items-center">
+      <div class="flex flex-wrap items-center justify-center gap-3 text-xs font-mono text-[#a0a0a0] mb-6">
+        <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#1e1e1e] border border-[#333333] text-[#e0e0e0]">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-[#10b981]"></i>
+          TLEMCEN, ALGÉRIE
+        </span>
+        <span class="text-[#333333]">•</span>
+        <button data-copy-email class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#1e1e1e] border border-[#333333] text-[#10b981] hover:border-[#10b981]/60 transition-colors" title="Cliquer pour copier l'email">
+          <i data-lucide="mail" class="w-3.5 h-3.5 text-[#10b981]"></i>
+          rahmani.ali@hotmail.com
+          <i data-lucide="copy" class="w-3 h-3 text-[#a0a0a0] ml-1"></i>
+        </button>
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-[#e0e0e0] mb-6 leading-tight">
+        Ali Rahmani
+        <span class="block text-[#10b981] text-2xl sm:text-3xl font-medium mt-3">
+          Administrateur Réseau & Développeur
+        </span>
+      </h1>
+
+      <div class="w-full max-w-2xl p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333] mb-6 shadow-xl relative overflow-hidden text-center">
+        <div class="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#10b981] to-transparent"></div>
+        <p class="text-lg sm:text-xl font-medium text-[#e0e0e0] leading-relaxed italic">
+          « De la gestion d'un cybercafé, la maintenance et l'automatisation, vers un BTS en réseau (2025-2026). »
+        </p>
+      </div>
+
+      <p class="text-[#a0a0a0] text-base sm:text-lg mb-8 flex items-center justify-center gap-2 font-mono max-w-2xl">
+        <i data-lucide="terminal" class="w-5 h-5 text-[#10b981] shrink-0"></i>
+        <span>
+          Parcours : Du CAP Opérateur de Saisie au Technicien en Informatique, vers le Technicien Supérieur.
+        </span>
+      </p>
+
+      <div class="flex flex-wrap justify-center items-center gap-4">
+        <a href="#projects" class="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-[#10b981] hover:bg-[#059669] text-[#121212] font-bold shadow-lg shadow-[#10b981]/10 transition-all text-sm">
+          <i data-lucide="layers" class="w-5 h-5"></i>
+          <span>Explorer les projets</span>
+        </a>
+
+        <a href="#about" class="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-[#1e1e1e] border border-[#333333] text-[#e0e0e0] hover:bg-[#252525] hover:border-[#444444] font-semibold transition-all text-sm">
+          <i data-lucide="file-text" class="w-5 h-5 text-[#10b981]"></i>
+          <span>En savoir plus</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 2: À PROPOS -->
+    <section id="about" class="py-16 bg-[#1e1e1e]/60 border-y border-[#333333]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="flex items-center gap-3 mb-8">
+          <div class="p-2.5 rounded-lg bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981]">
+            <i data-lucide="cpu" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-[#e0e0e0] tracking-tight">À propos de moi</h2>
+            <p class="text-xs font-mono text-[#10b981]">Dualité Infrastructure & Programmation</p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-12 gap-8 items-stretch">
+          <div class="md:col-span-8 space-y-6 text-[#e0e0e0] leading-relaxed text-base sm:text-lg">
+            <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333] shadow-md">
+              <p>
+                Je m'appelle Ali Rahmani. Depuis plus de vingt ans, je navigue entre les équipements réseautiques et l'éditeur de code : configurer un pare-feu le matin, déboguer une base de données ou une application l'après-midi. Cette double compétence — infrastructure et développement — me permet de comprendre un problème de bout en bout, du câble jusqu'à l'interface. Actuellement je travaille à l'Établissement du Contrôle Budgétaire Intercommunal de Tlemcen, j'ai aussi été pendant dix ans créateur et gérant d'un cybercafé, où j'ai conçu, câblé et maintenu un parc de plus de vingt postes en autonomie complète — de l'architecture réseau à la caisse.
+              </p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333] shadow-md">
+              <p>
+                Vingt ans dans le domaine de l'informatique : de l'utilisation et la saisie sur des suites bureautiques comme Microsoft Office, à la maintenance, l'automatisation, la programmation, et enfin le domaine des réseaux. Actuellement je souhaite mettre à profit mes compétences techniques en postulant pour un poste de Technicien Supérieur en Informatique.
+              </p>
+            </div>
+          </div>
+
+          <div class="md:col-span-4 flex flex-col justify-between gap-4">
+            <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333] flex-1 flex flex-col justify-center">
+              <div class="text-4xl font-extrabold text-[#10b981] font-mono mb-1">BTS Réseau</div>
+              <div class="text-sm font-semibold text-[#e0e0e0]">Diplôme Obtenu (<span class="current-date-text">Ce mois-ci</span>)</div>
+              <div class="text-xs text-[#a0a0a0] mt-1">Technicien Supérieur en Réseaux Informatiques</div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333] flex-1 flex flex-col justify-center">
+              <div class="text-4xl font-extrabold text-[#10b981] font-mono mb-1">20+ ans</div>
+              <div class="text-sm font-semibold text-[#e0e0e0]">d'expérience terrain</div>
+              <div class="text-xs text-[#a0a0a0] mt-1">Maintenance, administration réseau & développement logiciels</div>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333] flex-1 flex flex-col justify-center">
+              <div class="text-4xl font-extrabold text-[#10b981] font-mono mb-1">10 ans</div>
+              <div class="text-sm font-semibold text-[#e0e0e0]">Fondateur & Gérant de Cybercafé</div>
+              <div class="text-xs text-[#a0a0a0] mt-1">Conception, câblage et maintenance de +20 postes autonomes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: COMPÉTENCES -->
+    <section id="skills" class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981] text-xs font-mono mb-3">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+          Savoir-Faire Technique
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-[#e0e0e0] tracking-tight">Trois piles, une seule pratique.</h2>
+        <p class="text-[#a0a0a0] text-sm sm:text-base mt-2">Une vision globale allant de l'infrastructure physique et virtuelle jusqu'au code applicatif métier.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- 1. Systèmes -->
+        <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333] hover:border-[#10b981]/60 transition-all group flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981] flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+              <i data-lucide="server" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-xl font-bold text-[#e0e0e0] mb-3">Systèmes, Virtualisation & Automatisation</h3>
+            <p class="text-[#a0a0a0] text-sm mb-6 leading-relaxed">Installation, déploiement automatisé et virtualisation d'infrastructures.</p>
+
+            <ul class="space-y-2.5 text-sm text-[#e0e0e0] mb-6">
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Windows Server & Postes de travail clients</span></li>
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Virtualisation : VMware Workstation & GNS3</span></li>
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Scripts d'automatisation Python & WinSetup</span></li>
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Maintenance préventive et curative matérielle</span></li>
+            </ul>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-[#333333]">
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">VMware</span>
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">GNS3</span>
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">WinSetup</span>
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">Python</span>
+          </div>
+        </div>
+
+        <!-- 2. Dev -->
+        <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333] hover:border-[#10b981]/60 transition-all group flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981] flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+              <i data-lucide="code-2" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-xl font-bold text-[#e0e0e0] mb-3">Développement Logiciel & Outils</h3>
+            <p class="text-[#a0a0a0] text-sm mb-6 leading-relaxed">Développement de logiciels métier complets, du modèle de données à l'interface utilisateur.</p>
+
+            <ul class="space-y-2.5 text-sm text-[#e0e0e0] mb-6">
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Applications Desktop sous Delphi & Python</span></li>
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Conception de bases de données relationnelles (SQL)</span></li>
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Publipostage et génération automatique (PDF/PNG)</span></li>
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Interfaces utilisateur ergonomiques & Outils Télécom</span></li>
+            </ul>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-[#333333]">
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">Delphi</span>
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">Python</span>
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">SQL</span>
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">USSD</span>
+          </div>
+        </div>
+
+        <!-- 3. Réseaux -->
+        <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333] hover:border-[#10b981]/60 transition-all group flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981] flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+              <i data-lucide="network" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-xl font-bold text-[#e0e0e0] mb-3">Réseaux & Sécurité</h3>
+            <p class="text-[#a0a0a0] text-sm mb-6 leading-relaxed">Conception d'architectures réseau locales, câblage, adressage et sécurisation.</p>
+
+            <ul class="space-y-2.5 text-sm text-[#e0e0e0] mb-6">
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Architecture, câblage physique & Baies de brassage</span></li>
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Routage, Commutation (Switching) & Segmentation VLAN</span></li>
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Configuration de pare-feu & Règles de filtrage</span></li>
+              <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-[#10b981] shrink-0 mt-0.5"></i><span>Plan d'adressage IP, DHCP, DNS & Diagnostic réseau</span></li>
+            </ul>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-[#333333]">
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">Cisco</span>
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">Firewalls</span>
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">VLAN</span>
+            <span class="px-2.5 py-1 rounded bg-[#121212] border border-[#333333] text-[11px] font-mono text-[#10b981]">Routing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: EXPÉRIENCE -->
+    <section id="experience" class="py-16 bg-[#1e1e1e]/60 border-y border-[#333333]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="flex items-center gap-3 mb-10">
+          <div class="p-2.5 rounded-lg bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981]">
+            <i data-lucide="calendar" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-[#e0e0e0] tracking-tight">Parcours & Expérience</h2>
+            <p class="text-xs font-mono text-[#10b981]">Progression continue et pratique professionnelle</p>
+          </div>
+        </div>
+
+        <div class="relative pl-6 md:pl-8 border-l-2 border-[#333333] space-y-10">
+          <!-- 1. BTS Réseau -->
+          <div class="relative group">
+            <div class="absolute -left-[31px] md:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-[#10b981] ring-4 ring-[#121212] animate-pulse"></div>
+            <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#10b981]/50 shadow-lg shadow-[#10b981]/5">
+              <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-bold bg-[#10b981] text-[#121212]">
+                  <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i>
+                  Diplôme Obtenu (<span class="current-date-text">Ce mois-ci</span>)
+                </span>
+                <span class="text-xs font-mono text-[#a0a0a0]">Formation supérieure</span>
+              </div>
+              <h3 class="text-xl font-bold text-[#e0e0e0] mb-1">Technicien Supérieur en Réseaux Informatiques (BTS Réseau)</h3>
+              <p class="text-sm font-semibold text-[#10b981] mb-3">Progression académique : CAP Opérateur de Saisie ➔ Technicien ➔ Technicien Supérieur (Diplômé)</p>
+              <p class="text-[#e0e0e0] text-sm leading-relaxed">
+                Obtention récente du diplôme de Technicien Supérieur en Réseaux Informatiques. Validation complète des compétences en administration système, sécurité des infrastructures réseaux, routage avancé, commutation et services d'entreprise.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2. ECBI -->
+          <div class="relative group">
+            <div class="absolute -left-[31px] md:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-[#10b981]/80 ring-4 ring-[#121212]"></div>
+            <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333]">
+              <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-mono font-bold bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981]">
+                  <i data-lucide="briefcase" class="w-3 h-3"></i>
+                  2024 — Présent (Poste Actuel)
+                </span>
+                <span class="text-xs font-mono text-[#a0a0a0]">Tlemcen, Algérie</span>
+              </div>
+              <h3 class="text-xl font-bold text-[#e0e0e0] mb-1">Informaticien saisie & Maintenance Informatique</h3>
+              <p class="text-sm font-semibold text-[#10b981] mb-3">Établissement du Contrôle Budgétaire Intercommunal de Tlemcen (ECBI)</p>
+              <p class="text-[#e0e0e0] text-sm leading-relaxed">
+                Gestion du parc informatique, saisie administrative spécialisée, maintenance préventive et curative des ordinateurs et périphériques, support aux utilisateurs et assistance technique réseau.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3. Cybercafé -->
+          <div class="relative group">
+            <div class="absolute -left-[31px] md:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-[#10b981]/40 ring-4 ring-[#121212]"></div>
+            <div class="p-6 rounded-2xl bg-[#1e1e1e] border border-[#333333]">
+              <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                <span class="px-3 py-1 rounded-full text-xs font-mono font-bold bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981]">10 Ans d'Activité</span>
+                <span class="text-xs font-mono text-[#a0a0a0]">Entrepreneuriat</span>
+              </div>
+              <h3 class="text-xl font-bold text-[#e0e0e0] mb-1">Créateur & Gérant d'un Cybercafé</h3>
+              <p class="text-sm font-semibold text-[#10b981] mb-3">Parc de +20 postes informatiques en autonomie complète</p>
+              <p class="text-[#e0e0e0] text-sm leading-relaxed">
+                Conception et câblage de l'architecture réseau physique, administration des serveurs et clients, gestion de la sécurité, création de logiciels de caisse et de gestion du temps, assistance technique et dépannage quotidien.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: PROJETS -->
+    <section id="projects" class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981] text-xs font-mono mb-3">
+            <i data-lucide="layers" class="w-3.5 h-3.5"></i>
+            Portfolio de Réalisations
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-[#e0e0e0] tracking-tight">Projets & Logiciels</h2>
+          <p class="text-[#a0a0a0] text-sm sm:text-base mt-1">Cliquez sur une capture pour l'agrandir en mode plein écran (Galerie disponible).</p>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <div class="relative min-w-[200px]">
+            <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-[#a0a0a0]"></i>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Rechercher un outil..."
+              class="w-full pl-9 pr-3 py-1.5 rounded-xl bg-[#1e1e1e] border border-[#333333] text-xs text-[#e0e0e0] placeholder-[#a0a0a0] focus:outline-none focus:border-[#10b981]"
+            />
+          </div>
+
+          <div class="flex items-center bg-[#1e1e1e] p-1 rounded-xl border border-[#333333] text-xs">
+            <button data-category="all" id="btn-cat-all" class="cat-btn px-3 py-1.5 rounded-lg transition-all font-medium bg-[#10b981] text-[#121212] font-bold">Tous</button>
+            <button data-category="automation" id="btn-cat-automation" class="cat-btn px-3 py-1.5 rounded-lg transition-all font-medium text-[#a0a0a0] hover:text-[#e0e0e0]">Automation</button>
+            <button data-category="gestion" id="btn-cat-gestion" class="cat-btn px-3 py-1.5 rounded-lg transition-all font-medium text-[#a0a0a0] hover:text-[#e0e0e0]">Gestion</button>
+            <button data-category="network" id="btn-cat-network" class="cat-btn px-3 py-1.5 rounded-lg transition-all font-medium text-[#a0a0a0] hover:text-[#e0e0e0]">Réseau</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS GRID CONTAINER -->
+      <div id="projects-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendu dynamiquement via js/main.js -->
+      </div>
+    </section>
+
+    <!-- FOOTER & CONTACT -->
+    <footer id="contact" class="pt-16 pb-12 bg-[#121212] border-t border-[#333333]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="p-8 sm:p-12 rounded-3xl bg-[#1e1e1e] border border-[#333333] text-center relative overflow-hidden mb-12 shadow-2xl">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#10b981]/10 border border-[#10b981]/30 text-[#10b981] text-xs font-mono mb-4">
+            <i data-lucide="globe" class="w-3.5 h-3.5"></i>
+            Disponibilité & Collaboration
+          </div>
+
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-[#e0e0e0] mb-4 max-w-2xl mx-auto leading-tight">
+            Discutons de votre réseau, ou de votre prochain outil.
+          </h2>
+
+          <p class="text-[#a0a0a0] text-sm sm:text-base max-w-2xl mx-auto mb-8 leading-relaxed">
+            Disponible pour la maintenance informatique, l'administration réseau et le développement de logiciels métier sur mesure.
+          </p>
+
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <a href="mailto:rahmani.ali@hotmail.com" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#10b981] hover:bg-[#059669] text-[#121212] font-bold transition-all text-sm">
+              <i data-lucide="mail" class="w-4 h-4"></i>
+              <span>rahmani.ali@hotmail.com</span>
+            </a>
+
+            <button data-copy-email class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-[#121212] border border-[#333333] text-[#e0e0e0] hover:bg-[#1a1a1a] transition-all text-sm font-medium">
+              <i data-lucide="copy" class="w-4 h-4 text-[#a0a0a0]"></i>
+              <span>Copier l'email</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-[#333333] text-xs font-mono text-[#a0a0a0]">
+          <div>© <span id="year-text"></span> Ali Rahmani — Tlemcen, Algérie</div>
+          <div class="flex items-center gap-4">
+            <span>Réseaux & Maintenance</span>
+            <span>•</span>
+            <span>Développement Delphi & Python</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- LIGHTBOX MODAL -->
+  <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-[#121212]/95 backdrop-blur-md fade-in">
+    <div class="relative max-w-5xl w-full bg-[#1e1e1e] border border-[#333333] rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[92vh]" onclick="event.stopPropagation()">
+      <!-- Header -->
+      <div class="px-5 py-3.5 bg-[#121212] border-b border-[#333333] flex items-center justify-between">
+        <div>
+          <h4 id="lightbox-title" class="text-sm font-bold text-[#e0e0e0]"></h4>
+          <p id="lightbox-subtitle" class="text-[11px] text-[#a0a0a0] font-mono"></p>
+        </div>
+        <button id="lightbox-close" class="p-1.5 rounded-lg bg-[#121212] text-[#a0a0a0] hover:text-[#e0e0e0] hover:bg-[#252525] border border-[#333333] transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Image Area -->
+      <div class="relative p-4 bg-[#121212] flex-1 flex items-center justify-center overflow-hidden min-h-[350px]">
+        <button id="lightbox-prev" class="absolute left-4 z-10 p-2.5 rounded-full bg-[#1e1e1e]/90 text-[#10b981] hover:bg-[#10b981] hover:text-[#121212] border border-[#333333] transition-all shadow-lg">
+          <i data-lucide="chevron-left" class="w-6 h-6"></i>
+        </button>
+
+        <img id="lightbox-img" src="" alt="" class="max-h-[62vh] w-auto max-w-full object-contain rounded-lg shadow-lg border border-[#333333]" />
+
+        <button id="lightbox-next" class="absolute right-4 z-10 p-2.5 rounded-full bg-[#1e1e1e]/90 text-[#10b981] hover:bg-[#10b981] hover:text-[#121212] border border-[#333333] transition-all shadow-lg">
+          <i data-lucide="chevron-right" class="w-6 h-6"></i>
+        </button>
+      </div>
+
+      <!-- Thumbnails Bar -->
+      <div id="lightbox-thumbs" class="p-3 bg-[#181818] border-t border-[#333333] flex flex-wrap items-center justify-center gap-3"></div>
+
+      <!-- Footer Caption -->
+      <div class="p-4 bg-[#1e1e1e] border-t border-[#333333] text-xs text-[#e0e0e0]">
+        <div id="lightbox-desc" class="leading-relaxed"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 hidden items-center gap-2 px-4 py-3 bg-[#10b981] text-[#121212] font-bold text-xs rounded-xl shadow-2xl transition-all">
+    <i data-lucide="check-circle" class="w-4 h-4"></i>
+    <span id="toast-msg"></span>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
